@@ -1,0 +1,159 @@
+/* all common css :start */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* all common css :end */
+ 
+
+/* topheaderpart :start */
+.topheader{
+    padding: 20px;
+    background: #20282d;
+}
+.topheaderpart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forhover :hover{
+    border-bottom: 1px solid rgb(240, 233, 233);
+    
+}
+
+.tcontentleft a{
+    color: aliceblue;
+}
+
+.tcontentleft a span{
+    padding: 0 12px;
+}
+
+.tcontentleft a i{
+    padding: 0 10px;
+}
+
+.tcontentright a{
+    color: aliceblue;
+    padding: 0 10px;
+}
+/* topheaderpart end */
+
+.headerpart{
+    padding: 10px;
+    background-color: teal;
+}
+.headerflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li a:hover{
+    color: rgb(230, 223, 223);
+}
+.menu ul li a::before{
+    height: 2px;
+    width: 40px;
+    background: black;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+
+}
+.menu ul li a:hover:before{
+    opacity: 1;
+    visibility: visible;
+}
+.menu ul li{
+    
+    display: inline-block;
+}
+.menu ul li:hover{
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
+    
+}
+
+
+.logo{
+    padding-top: 10px;
+}
+.menu ul li a{
+    color: #20282D;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0 15px;
+    line-height: 75px;
+}
+
+
+.icon{
+    padding-top: 30px;
+  
+}
+
+.icon a i:hover{
+    color: rgb(0, 207, 52);
+    
+    
+}
+/* .icon a i::before{
+    height: 2px;
+    width: 40px;
+    background: black;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+
+} */
+.icon a i:hover:before{
+    opacity: 1;
+    visibility: visible;
+   
+}
+
+.icon a{
+    background: #F2F2F2;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 400;
+    color: #1c1c1c;
+    margin-right: 10px;
+}
+.Quote{
+    background: #1c1c1c !important;
+    color: white !important;
+}
+
+
+
+.bannerpar{
+    padding: 505px 0;
+    background: url(../images/gwg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+.images{
+    width: 50px;
+}
